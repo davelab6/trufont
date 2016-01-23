@@ -1,3 +1,8 @@
+app.png, app.ico, app.icns are licensed under the following terms:
+
+Copyright 2015, Jean-Baptiste Morizot.
+Copyright 2015, Jérémy Landes-Nones.
+
 Attribution-ShareAlike 4.0 International
 
 =======================================================================
