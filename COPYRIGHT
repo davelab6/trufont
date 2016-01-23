@@ -4,7 +4,11 @@ Licensed under the GNU General Public License version 3 (see
 LICENSE.GPLv3) or the GNU Lesser General Public License version 2.1
 (see LICENSE.LGPLv21), at your option.
 
-Note that the TruFont Project uses PyQt5 as a library, which free
-version is provided under the GNU GPLv3 license. Copyleft clause may
-apply, in which case the end-user is left with choosing the GNU GPL v3
-as the end-user license.
+Note that the TruFont Project uses the PyQt5 library, which is
+provided freely under the GNU GPLv3 license. Without an additional
+paid license from the PyQt5 developers, you must choose the 
+GPLv3. 
+
+Learn more about PyQt licensing at 
+
+    https://www.riverbankcomputing.com/commercial/license-faq
