@@ -11,9 +11,6 @@ Install with [homebrew](http://brew.sh),
     sudo xcodebuild -license ;
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" ;
     brew install python3 ;
-	brew linkapps python3 ;
-
-Note: You can have multiple versions of Python on your system, and you just need to use a version prefix (e.g. `python3` or `python3.4` or `python3.5`) to ensure you are using Python 3. 
 
 ### PyQt5
 
@@ -73,7 +70,7 @@ If you installed TruFont with `setup.py`, it can be uninstalled with this comman
     sudo apt-get install -qq -y python3-pyqt5 python3-pyqt5.qtsvg python3-flake8 ;
     sudo pip3 install -r requirements.txt
 
-## TruFont
+## Trufont
 
 To install and run,
 
