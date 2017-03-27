@@ -45,7 +45,7 @@ Getting started
 
 3. Install/update TruFont to the latest stable release:
 
-   ``pip install --upgrade trufont``
+   ``pip3 install --upgrade trufont``
 
 4. Run the app as ``trufont``.
 
@@ -82,7 +82,7 @@ Here's a quick tutorial if you'd like to contribute to TruFont.
 
 6. Use pip to install TruFont in "editable" mode:
 
-   ``pip install --editable .``
+   ``pip3 install --editable .``
 
    Instead of copying `trufont` to your Python site-packages directory,
    this command only creates a link to the source directory inside the
@@ -93,7 +93,7 @@ Here's a quick tutorial if you'd like to contribute to TruFont.
 7. It is also recommended to regularly update the dependencies to the
    curently tested versions as listed in `requirements.txt`:
 
-   ``pip install --upgrade -r requirements.txt``
+   ``pip3 install --upgrade -r requirements.txt``
 
 8. Once you have commited your patch, push the new branch to your fork:
 
