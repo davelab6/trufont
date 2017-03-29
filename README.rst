@@ -6,13 +6,13 @@ TruFont
 `TruFont <https://trufont.github.io>`__ is a font-editing application
 written with Python3, ufoLib, defcon and PyQt5.
 
-Download
-~~~~~~~~
+Download A Binary Package
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All downloads are available from <https://github.com/trufont/trufont/releases>
 
-Contributing
-~~~~~~~~~~~~~~~
+Installing from Source
+~~~~~~~~~~~~~~~~~~~~~~
 
 1. Install **Python 3.5** (or later):
 
@@ -21,6 +21,19 @@ Contributing
    -  Windows: Download installer from 
       `python.org/downloads <https://www.python.org/downloads/>`__
    -  Linux: It's usually packaged with the OS.
+   -  Ubuntu: First, enable the 'universe' repositories:
+   
+      ``sudo gedit /etc/apt/sources.list`` 
+	  
+	  Add the word ``universe`` to the end of every line, save the file.
+  
+      Then install Python 3.x and related packages:
+  
+      ``sudo apt update``
+	  
+	  ``sudo apt install git python3-pip python3-venv``
+  
+      ``pip3 install --upgrade pip``
 
 2. Set up a new Python **virtual environment**. Although this is not
    required, it's *highly recommended*, since TruFont has lots of
@@ -38,8 +51,13 @@ Contributing
 
    -  Activate the newly created environment:
 
-      -  OS X or Linux: ``source ENV_DIR/bin/activate``
-      -  Windows: ``ENV_DIR\Scripts\activate.bat``
+      -  OS X or Linux: 
+	     
+		 ``source ENV_DIR/bin/activate``
+
+      -  Windows: 
+	  
+	     ``ENV_DIR\Scripts\activate.bat``
 
       This temporarily adds the virtual environment's scripts folder to
       your console's `PATH`, so you can access `python`, `pip` and
@@ -60,7 +78,7 @@ Contributing
    
    ``sudo pip3 install --upgrade trufont``
 
-4. Run the app:
+4. Run the app, just run it:
 
     ``trufont``
 
