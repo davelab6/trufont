@@ -1,2 +1,12 @@
 flake8==3.3.0
 pytest==3.0.7
+pyqt5==5.8
+-e git+git://github.com/fonttools/fonttools/#egg=fonttools
+-e git+git://github.com/unified-font-object/ufoLib#egg=ufoLib
+-e git+git://github.com/typesupply/defcon#egg=defcon
+-e git+git://github.com/trufont/defconQt#egg=defconQt
+-e git+git://github.com/typesupply/extractor#egg=ufo-extractor
+-e git+git://github.com/googlei18n/ufo2ft#egg=ufo2ft
+-e git+git://github.com/typemytype/booleanOperations#egg=booleanOperations
+-e git+git://github.com/hsluv/hsluv-python#egg=hsluv
+-e git+git://github.com/google/brotli#egg=brotli

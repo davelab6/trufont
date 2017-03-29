@@ -6,7 +6,12 @@ TruFont
 `TruFont <https://trufont.github.io>`__ is a font-editing application
 written with Python3, ufoLib, defcon and PyQt5.
 
-Getting started
+Download
+~~~~~~~~
+
+All downloads are available from <https://github.com/trufont/trufont/releases>
+
+Contributing
 ~~~~~~~~~~~~~~~
 
 1. Install **Python 3.5** (or later):
@@ -22,13 +27,13 @@ Getting started
    dependencies, which may (or may not) conflict with other modules
    you installed globally.
 
-   -  To create a new virtual environment in ``ENV_DIR``:
+   -  To create a new virtual environment:
 
       ``python3 -m venv ENV_DIR``
 
       This creates a new ``ENV_DIR`` folder (you can choose the name 
       you want). The ``bin`` subfolder (or ``Scripts`` if you are 
-      on Windows) contains a new ``python`` executable, and the 
+      on Windows) contains a new ``python`` executable, with the 
       ``pip`` installer linked to that.
 
    -  Activate the newly created environment:
@@ -47,7 +52,17 @@ Getting started
 
    ``pip3 install --upgrade trufont``
 
-4. Run the app as ``trufont``.
+   If you skipped step 2 you may get an error
+   
+   ``IOError: [Errno 13] Permission denied: '/usr/local/bin/something'``
+   
+   You can then re-run the command with permissions, using sudo:
+   
+   ``sudo pip3 install --upgrade trufont``
+
+4. Run the app:
+
+    ``trufont``
 
 Contributing
 ~~~~~~~~~~~~
@@ -91,9 +106,12 @@ Here's a quick tutorial if you'd like to contribute to TruFont.
    having to re-install.
 
 7. It is also recommended to regularly update the dependencies to the
-   curently tested versions as listed in `requirements.txt`:
+   curently tested versions as listed in `requirements.txt`, or the 
+   very latest git master branch versions:
 
    ``pip3 install --upgrade -r requirements.txt``
+
+   ``pip3 install --upgrade -r dev-requirements.txt``
 
 8. Once you have commited your patch, push the new branch to your fork:
 
